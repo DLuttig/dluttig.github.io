@@ -1,0 +1,14 @@
+
+
+header {
+    background: gray;
+    color: white;
+}
+
+header nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    background: black;
+    margin: 5px;
+    color: white;
+}
