@@ -1,7 +1,10 @@
 
 a {
-    font-family: 'Pacifico', cursive;
-    font-size: 150%;
+   font-family: 'Pacifico', cursive;
+  font-size: 150%;
+}
+.cursive {
+  font-family: 'Pacifico', cursive;
 }
   .rotate90 {
     -webkit-transform: rotate(-90deg);
