@@ -16,7 +16,7 @@
             </div>
             <div class="col-sm-4"></div>
             <div class="col-sm-4">
-                <img src="../Images/Profile.jpg" alt="Profile" class="rotate90 img-right" height="200"/> <!--Image-->
+                <img src="../Images/Profile.jpg" alt="Profile" class="profileImg" height="200"/> <!--Image-->
             </div>
         </div>
     </header> 
@@ -45,12 +45,12 @@
         </div>
   </div>
   <div>
-        <h2 class="cursive">Class and ID Selectors</h2>
+        <h2 class="cursive">What are the best practices associated with using classes vs. ids</h2><br>
         <p>
-            You can also define your own selectors in the form of <strong>class</strong> and <strong>ID</strong> selectors.
-            The benefit of this is that you can have the same HTML element, but present it differently depending on its <strong>class</strong> or <strong>ID</strong>.<br>
-            In the CSS, a class selector is a name preceded by a full stop (“.”) and an ID selector is a name preceded by a hash character (“#”). So the CSS might look something like:
-        </p>
+
+                Basic set of tags(&lt;h1&gt;, &lt;p&gt;, and &lt;ul&gt;), doesn't cover every possible type of page element or layout choice.  
+                For this, we need <strong>class</strong> and <strong>ID</strong>, to target the specific areas in the website.
+                Using <strong>class</strong> and <strong>ID</strong> selectors, the page can have the same HTML element, but present it differently depending on its <strong>class</strong> or <strong>ID</strong>.<br> In the CSS, a class selector is a name preceded by a full stop (“.”) and an ID selector is a name preceded by a hash character (“#”). So the CSS might look something like:     </p>
   <pre class=" language-css">
       <code class="oldLang  language-css">
         <span class="token selector"><strong>#top</strong></span> <span class="token punctuation">{</span>
@@ -79,6 +79,26 @@
         </code>
     </pre>
     <p>The difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one.</p><br>
+
+    <h2 class="cursive">ID's are unique</h2>
+        <ul>
+            <li>Each element can have only one ID</li>
+            <li>Each page can have only one element with that ID</li>
+            <li> code will not pass validation if you use the same ID on more than one element.</li>        
+        </ul>
+        <p>A good analogy for an IDs are to think of an ID as a public holiday. There are only one Christmas and one Easter each year, and they are both celebrated in different ways.</p>
+    <h2 class="cursive">Classes are  unique</h2>
+        <ul>
+            <li>You can use the same class on multiple elements</li>
+            <li>You can use multiple classes on the same element</li>
+        </ul>
+        <p>
+             Classes are for when applying the same styles to multiple elements.
+             .bold, .italic, .aligncenter, .floatleft are examples of good uses for classes, because you're going to (potentially) want to make multiple items on your page bold, italic, center aligned or floated to the left.
+        </p>
+        
+
+
 </div>
 
 
